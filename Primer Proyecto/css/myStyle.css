@@ -1,0 +1,29 @@
+#encabezado{
+    color: red;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.encabezadoClass{
+    color: yellow;
+}
+
+li,ul{
+    color: blue;
+}
+
+.contenedorHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: gray;
+}
+
+.contenedorHeader h3{
+    padding-left: 10px;
+}
+
+.contenedorFooter{
+    height: 500px;
+    background-color: gray;
+}

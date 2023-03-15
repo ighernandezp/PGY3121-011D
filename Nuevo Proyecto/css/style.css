@@ -1,0 +1,20 @@
+.contenedorHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: gray;
+}
+
+.contenedorHeader h3 {
+    padding-left: 10px;
+    color: brown;
+}
+
+.contenedorHeader h3:hover{
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+

@@ -57,3 +57,39 @@ a {
     flex-direction: row;
     align-items: center;
 }
+
+.miniBox{
+    padding-left: 10px;
+}
+
+.contenedor{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+.table{
+    width: 100px;
+}
+
+.table, th, tr{
+    text-align: center;
+}
+
+.data1{
+    background-color: blue;
+    height: 50px;
+}
+
+.data2{
+    background-color: red;
+    height: 50px;
+}
+.titulo{
+    background-color: greenyellow;
+    height: 30px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <div class="container">
+
+            <a href="#" class="navbar-brand"> <span class="text-info">Pet</span>Shop </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+                aria-controls="navbarS" aria-expanded="false" aria-enabled="toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="productos.html" class="nav-link">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="iniciosesion.html" class="nav-link">Iniciar Sesion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="registro.html" class="nav-link">Registro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Carrito</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section class="contact section-padding">
+
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Registro de usuario</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0 justify-content-center">
+                <div class="col-md-6 p-0 pt-4 pb-4">
+                    <form action="#" id="miFormulario" class="bg-light p-4 m-auto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label for="nombre">Nombre de usuario</label>
+                                    <input name="nombre" type="text" class="form-control" placeholder="Ingrese su nombre de usuario">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label for="correo">Correo electronico</label>
+                                    <input name="correo" type="email" class="form-control" placeholder="ingrese su correo electronico">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label for="nombrecompleto">Nombre completo</label>
+                                    <input name="nombrecompleto" type="text" class="form-control" placeholder="ingrese su nombre completo">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label for="fecha">Fecha de nacimiento</label>
+                                    <input name="fecha" type="text" class="form-control" placeholder="ingrese su fecha de nacimiento (DD/MM/YYYY)">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label for="rut">Numero de identificacion</label>
+                                    <input name="rut" type="text" class="form-control" placeholder="Ingrese su numero de identificacion (RUT/ID DE DOC.)">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label for="domicilio">Domicilio de usuario</label>
+                                    <input name="domicilio" type="text" class="form-control" placeholder="Ingrese su domicilio de envios">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label for="comuna">Comuna de usuario</label>
+                                    <input name="comuna" type="text" class="form-control" placeholder="Ingrese su comuna">
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-lg btn-block mt-3">Registrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="bg-dark p-5 text-center">
+        <div class="container">
+            <p class="text-white">Tiendas en Santiago de Chile</p>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="js/validacionform.js"></script>
+</body>
+
+</html>
